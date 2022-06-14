@@ -1,0 +1,196 @@
+*,
+*:after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    /* overflow-x:hidden; */
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: black;
+    min-width: 800px;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 40px;
+    margin-left: 100px;
+}
+
+header {
+    padding-top: 7.5px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 45px;
+    background-color: #84d42f;
+}
+
+header img {
+    height: 30px;
+    width: 50px;
+    float: left;
+}
+
+.header {
+    width: 100%;
+    max-width: 1000px;
+}
+
+
+#a,
+#em {
+    padding-top: 3px;
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    float: right;
+    padding-right: 25px;
+    transition: .1s;
+}
+
+#a:hover {
+    color: white;
+    transition: .1s;
+}
+
+#em {
+    color: blue;
+    font-size: 16px;
+    float: left;
+}
+
+#em:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 100%;
+    height: fit-content;
+}
+
+.main {
+    padding-top: 80px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1300px;
+}
+
+.board img {
+    height: 357px;
+}
+
+.flowers {
+    margin-bottom: 60px;
+}
+
+.flowers .product {
+    margin: 0 auto;
+}
+
+.products {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.pins .product img {
+    height: 235px;
+}
+
+.beds .product img {
+    height: 205px;
+}
+
+.flowers .product img {
+    height: 276px;
+}
+
+.product {
+    margin: 0 auto;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.shopping__button {
+    padding: 12px 33px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: #15852c;
+    border: 2px solid #15852c;
+    transition: .3s color ease;
+}
+
+.white__button {
+    background-color: #fff;
+    color: black;
+    border-color: black;
+    transition: .2s color ease;
+}
+
+.shopping__button:hover {
+    background-color: #fff;
+    border: 2px solid #15852c;
+    border-radius: 5px;
+    color: #15852c;
+}
+
+.white__button:hover {
+    color: #fff;
+    background-color: #15852c;
+}
+
+@media screen and (max-width: 935px) {
+    * {
+        text-align: center;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+
+    .products {
+        flex-direction: column;
+    }
+
+    h1 {
+        margin: 0 100px;
+    }
+
+    .board {
+        margin-top: -10px;
+    }
+
+
+}
